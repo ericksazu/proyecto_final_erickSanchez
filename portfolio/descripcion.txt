@@ -1,0 +1,14 @@
+Proyecto
+
+Adjunto encontrara un archivo PSD con el material necesario.
+La idea del proyecto es el desarrollo de un portafolio profesional digital. La estructura de el diseño se debe de mantener, pero como el portafolio es algo personal queda a decisión de ustedes los colores e imagenes a utilizar.
+Este debe ser desarrollado enteramente en HTML5 tratando de hacer el uso correcto de los distintos elementos. 
+Se debe hacer uso de la técnica responsive, presentando dos puntos de quiebre (media queries).
+Todo lo que tengan que ver con desarrollo de CSS debe ser desarrollado mediante SCSS. Deben de implementar el uso de funciones (al menos debe incluir dos funciones la cuales utilice para hacer cálculos de porcetajes y otra para em). Ademas debe hacer uso de las variables a como considere conveniente.
+Los iconos de redes sociales deben ser implementados por medio de Sprites.
+Para la navegación principal se debe implementar de tal manera que parezca que sigue al usuario por el resto de la página. Para los botones el que se muesta en azul es el estado "active" y "hover" que se debe implementar.
+En la sección de servicios los iconos se deben de realizar con sprites.
+En Portfolio las imagenes del portafolio deben de tener un efecto hover donde se muestre un "overlay" mostrando un color que posee opacidad sobre la imagen sobre la que el usuario hace el hover.
+En la seccion Just Default Section, la imagen que aparece es un video en Vimeo. Pueden agregarlo solamente como imagen, de implementarlo como un video real se dara un 1% extra sobre la nota final del proyecto.
+Para evitar problemas a la hora de codificar, deben implementar el uso de Git. Una vez que hayan terminado el proyecto, deben de al menos tener 3 "commits", en los que se definan las 3 secciones principales de la página (header, contenido y footer). Adjunto podra encontrar el "cheat sheet" con los distintos comandos de Git, por ahora deberian hacer uso solamente de los comando bajo los titulos: Create Repositories, Make Changes y Review History. 
+Por ultimo se dara un 5% extra sobre la nota final si este es realizado en su totalidad usando el framework Bootstrap para crear el portafolio responsivo (http://getbootstrap.com/). 
