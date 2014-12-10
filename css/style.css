@@ -4,17 +4,22 @@ html {
 }
 
 /* line 5, ../scss/style.scss */
+h1, h2, h3, h4, a, p {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 9, ../scss/style.scss */
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0;
 }
 
-/* line 10, ../scss/style.scss */
+/* line 14, ../scss/style.scss */
 body {
   font-family: helvetica;
 }
 
-/* line 14, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 .header {
   background-color: #616365;
   height: 800px;
@@ -31,61 +36,61 @@ body {
   background-size: cover;
 }
 
-/* line 33, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 .navbar-inverse {
   background: rgba(73, 84, 91, 0.84);
   padding: 3% 0;
   border-color: transparent;
 }
-/* line 38, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
 .navbar-inverse .navbar-toggle {
   border-color: transparent;
 }
 @media (max-width: 767px) {
-  /* line 42, ../scss/style.scss */
+  /* line 46, ../scss/style.scss */
   .navbar-inverse .navbar-toggle:hover {
     background-color: #4bcaff;
   }
 }
-/* line 48, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .navbar-inverse .navbar-nav {
   float: right;
 }
-/* line 51, ../scss/style.scss */
+/* line 55, ../scss/style.scss */
 .navbar-inverse .navbar-nav li a {
   color: white;
   padding: 15px 20px;
 }
-/* line 55, ../scss/style.scss */
+/* line 59, ../scss/style.scss */
 .navbar-inverse .navbar-nav li a:hover {
   color: #4bcaff;
   border: 2px solid;
   border-color: #4bcaff;
   padding: 13px 18px;
 }
-/* line 64, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 .navbar-inverse .navbar-brand {
   color: white;
 }
 
 @media (max-width: 767px) {
-  /* line 70, ../scss/style.scss */
+  /* line 74, ../scss/style.scss */
   #navbar ul {
     width: 100%;
     text-align: center;
     padding-right: 30px;
   }
 }
-/* line 77, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 section.services {
   height: 100%;
   background-color: #4bcaff;
 }
-/* line 81, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 section.services div.container {
   padding: 75px 15px;
 }
-/* line 84, ../scss/style.scss */
+/* line 88, ../scss/style.scss */
 section.services div.container img.design {
   display: block;
   margin: 0 auto;
@@ -93,11 +98,11 @@ section.services div.container img.design {
   width: 140px;
   height: 108px;
 }
-/* line 92, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 section.services div.container h4 {
   text-align: center;
 }
-/* line 96, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 section.services div.container img.web {
   display: block;
   margin: 0 auto;
@@ -106,7 +111,7 @@ section.services div.container img.web {
   height: 107px;
 }
 
-/* line 106, ../scss/style.scss */
+/* line 110, ../scss/style.scss */
 section.portfolio {
   height: 845px;
   background-color: #ffffff;
