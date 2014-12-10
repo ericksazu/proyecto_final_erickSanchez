@@ -1,0 +1,109 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+}
+
+body{
+	font-family: helvetica;
+}
+
+.header{
+	background-color: #616365;
+	height: 800px;
+	background: url(../img/workspace.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+
+.navbar-inverse {
+	background: rgba(73, 84, 91, 0.84);
+	padding: 3% 0;
+	border-color: transparent;
+	
+	.navbar-toggle {
+		border-color: transparent;
+
+		@media (max-width: 767px) {
+			&:hover{
+				background-color: #4bcaff;
+			};
+		}
+	}
+
+	.navbar-nav{
+		float: right;
+
+		li a{
+			color: white;
+			padding: 15px 20px;
+
+			&:hover{
+				color: #4bcaff;
+				border: 2px solid;
+				border-color: #4bcaff;
+				padding: 13px 18px;
+			}
+		}
+	} 
+
+	.navbar-brand {
+		color: white;
+	}
+}
+
+@media (max-width: 767px) {
+	#navbar ul{
+		width: 100%;
+		text-align: center;
+		padding-right: 30px;
+	}	
+}
+
+section.services{
+	height: 100%;
+	background-color: #4bcaff;
+
+	div.container{
+		padding: 75px 15px;
+
+		img.design{
+			display: block;
+			margin: 0 auto;
+			background: url(../img/sprite-services.png) no-repeat 0 0;
+			width: 140px;
+			height: 108px;
+		}
+
+		h4{
+			text-align: center;
+		}
+
+		img.web{
+			display: block;
+			margin: 0 auto;
+			background: url(../img/sprite-services.png) no-repeat -157px -7px;
+			width: 130px;
+			height: 107px;
+		}
+	}
+}
+
+section.portfolio{
+	height: 845px;
+	background-color: #ffffff;
+}

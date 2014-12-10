@@ -1,73 +1,113 @@
+/* line 1, ../scss/style.scss */
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+/* line 5, ../scss/style.scss */
 *, *:before, *:after {
-	box-sizing: inherit;
-	margin: 0;
+  box-sizing: inherit;
+  margin: 0;
 }
 
-body{
-	font-family: helvetica;
+/* line 10, ../scss/style.scss */
+body {
+  font-family: helvetica;
 }
 
-.header{
-	background-color: #616365;
-	height: 800px;
-	background: url(../img/workspace.jpg);
+/* line 14, ../scss/style.scss */
+.header {
+  background-color: #616365;
+  height: 800px;
+  background: url(../img/workspace.jpg);
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
   /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
   /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height */
   background-attachment: fixed;
-  
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
 }
 
+/* line 33, ../scss/style.scss */
 .navbar-inverse {
-	background: rgba(73, 84, 91, 0.84);
-	padding: 3% 0;
-	border-color: transparent;
+  background: rgba(73, 84, 91, 0.84);
+  padding: 3% 0;
+  border-color: transparent;
 }
-
-.navbar-nav li a{
-	padding: 15px 20px;
+/* line 38, ../scss/style.scss */
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+@media (max-width: 767px) {
+  /* line 42, ../scss/style.scss */
+  .navbar-inverse .navbar-toggle:hover {
+    background-color: #4bcaff;
+  }
+}
+/* line 48, ../scss/style.scss */
+.navbar-inverse .navbar-nav {
+  float: right;
+}
+/* line 51, ../scss/style.scss */
+.navbar-inverse .navbar-nav li a {
+  color: white;
+  padding: 15px 20px;
+}
+/* line 55, ../scss/style.scss */
+.navbar-inverse .navbar-nav li a:hover {
+  color: #4bcaff;
+  border: 2px solid;
+  border-color: #4bcaff;
+  padding: 13px 18px;
+}
+/* line 64, ../scss/style.scss */
+.navbar-inverse .navbar-brand {
+  color: white;
 }
 
 @media (max-width: 767px) {
-	#navbar ul{
-		width: 100%;
-		text-align: center;
-		padding-right: 30px;
-	}
-
-	.navbar-inverse .navbar-toggle {
-		border-color: transparent;
-	}
-
-	.navbar-inverse .navbar-toggle:hover {
-		background-color: #4bcaff;
-	}
+  /* line 70, ../scss/style.scss */
+  #navbar ul {
+    width: 100%;
+    text-align: center;
+    padding-right: 30px;
+  }
+}
+/* line 77, ../scss/style.scss */
+section.services {
+  height: 100%;
+  background-color: #4bcaff;
+}
+/* line 81, ../scss/style.scss */
+section.services div.container {
+  padding: 75px 15px;
+}
+/* line 84, ../scss/style.scss */
+section.services div.container img.design {
+  display: block;
+  margin: 0 auto;
+  background: url(../img/sprite-services.png) no-repeat 0 0;
+  width: 140px;
+  height: 108px;
+}
+/* line 92, ../scss/style.scss */
+section.services div.container h4 {
+  text-align: center;
+}
+/* line 96, ../scss/style.scss */
+section.services div.container img.web {
+  display: block;
+  margin: 0 auto;
+  background: url(../img/sprite-services.png) no-repeat -157px -7px;
+  width: 130px;
+  height: 107px;
 }
 
-.navbar-inverse .navbar-nav>li>a,
-.navbar-inverse .navbar-brand {
-	color: white;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover{
-	color: #4bcaff;
-	border: 2px solid;
-	border-color: #4bcaff;
-	padding: 13px 18px;
-}
-
-.navbar-nav{
-	float: right;
+/* line 106, ../scss/style.scss */
+section.portfolio {
+  height: 845px;
+  background-color: #ffffff;
 }
