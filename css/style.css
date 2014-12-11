@@ -91,7 +91,7 @@ section.services div.container {
   padding: 75px 15px;
 }
 /* line 88, ../scss/style.scss */
-section.services div.container img.design {
+section.services div.container span.design {
   display: block;
   margin: 0 auto;
   background: url(../img/sprite-services.png) no-repeat 0 0;
@@ -103,7 +103,7 @@ section.services div.container h4 {
   text-align: center;
 }
 /* line 100, ../scss/style.scss */
-section.services div.container img.web {
+section.services div.container span.web {
   display: block;
   margin: 0 auto;
   background: url(../img/sprite-services.png) no-repeat -157px -7px;
