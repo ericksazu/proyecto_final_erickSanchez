@@ -35,39 +35,78 @@ body {
      on the container's size */
   background-size: cover;
 }
+/* line 36, ../scss/style.scss */
+.header div.title {
+  padding: 15% 0;
+  text-align: center;
+}
+/* line 40, ../scss/style.scss */
+.header div.title h1 {
+  color: #FFF;
+  font-size: 2.7em;
+  background: #4B565D;
+  padding: 10px;
+  width: 48%;
+  margin: 0 auto 2% auto;
+}
+@media (max-width: 480px) {
+  /* line 40, ../scss/style.scss */
+  .header div.title h1 {
+    font-size: 1em;
+    width: 65%;
+  }
+}
+/* line 54, ../scss/style.scss */
+.header div.title h2 {
+  color: #FFF;
+  font-size: 2.7em;
+  text-transform: uppercase;
+  background: #4B565D;
+  padding: 10px;
+  width: 68%;
+  margin: 0 auto;
+}
+@media (max-width: 480px) {
+  /* line 54, ../scss/style.scss */
+  .header div.title h2 {
+    font-size: 1em;
+    width: 88%;
+  }
+}
 
 @media (min-width: 767px) {
-  /* line 38, ../scss/style.scss */
+  /* line 72, ../scss/style.scss */
   nav.top-nav-collapse {
     padding: 20px 0;
   }
 }
-/* line 43, ../scss/style.scss */
+/* line 77, ../scss/style.scss */
 .navbar-inverse {
   background: rgba(73, 84, 91, 0.84);
   padding: 20px 0;
   border-color: transparent;
 }
-/* line 48, ../scss/style.scss */
+/* line 82, ../scss/style.scss */
 .navbar-inverse .navbar-toggle {
   border-color: transparent;
 }
 @media (max-width: 767px) {
-  /* line 52, ../scss/style.scss */
+  /* line 86, ../scss/style.scss */
   .navbar-inverse .navbar-toggle:hover {
     background-color: #4bcaff;
   }
 }
-/* line 58, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 .navbar-inverse .navbar-nav {
   float: right;
 }
-/* line 61, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 .navbar-inverse .navbar-nav li a {
   color: white;
   padding: 15px 20px;
+  margin-left: 10px;
 }
-/* line 65, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 .navbar-inverse .navbar-nav li a:hover {
   color: #4bcaff;
   border: 1px solid;
@@ -75,12 +114,18 @@ body {
   padding: 14px 19px;
   background-color: transparent;
 }
-/* line 75, ../scss/style.scss */
+@media (max-width: 767px) {
+  /* line 95, ../scss/style.scss */
+  .navbar-inverse .navbar-nav li a {
+    margin-left: 0;
+  }
+}
+/* line 115, ../scss/style.scss */
 .navbar-inverse .navbar-brand {
   color: white;
 }
 
-/* line 82, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
@@ -92,23 +137,22 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* line 91, ../scss/style.scss */
+  /* line 131, ../scss/style.scss */
   #navbar ul {
     width: 100%;
     text-align: center;
     padding-right: 30px;
   }
 }
-/* line 98, ../scss/style.scss */
+/* line 138, ../scss/style.scss */
 section#services {
-  height: 100%;
   background-color: #4bcaff;
 }
-/* line 102, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 section#services div.container {
   padding: 75px 15px;
 }
-/* line 105, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 section#services div.container span.design {
   display: block;
   margin: 0 auto;
@@ -116,16 +160,20 @@ section#services div.container span.design {
   width: 140px;
   height: 108px;
 }
-/* line 113, ../scss/style.scss */
-section#services div.container h4 {
+/* line 153, ../scss/style.scss */
+section#services div.container h3 {
   text-align: center;
   color: #ffffff;
 }
-/* line 118, ../scss/style.scss */
-section#services div.container h3 {
+/* line 158, ../scss/style.scss */
+section#services div.container h2 {
   color: #ffffff;
 }
-/* line 122, ../scss/style.scss */
+/* line 162, ../scss/style.scss */
+section#services div.container p {
+  color: #ffffff;
+}
+/* line 166, ../scss/style.scss */
 section#services div.container span.web {
   display: block;
   margin: 0 auto;
@@ -134,7 +182,7 @@ section#services div.container span.web {
   height: 107px;
 }
 
-/* line 132, ../scss/style.scss */
+/* line 176, ../scss/style.scss */
 section.portfolio {
   height: 845px;
   background-color: #ffffff;

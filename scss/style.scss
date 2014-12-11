@@ -32,6 +32,40 @@ body{
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
+
+  div.title{
+  	padding: 15% 0;
+		text-align: center;
+
+		h1{
+			color: #FFF;
+			font-size: 2.7em;
+			background: #4B565D;
+			padding: 10px;
+			width: 48%;
+			margin: 0 auto 2% auto;
+
+			@media (max-width: 480px){
+				font-size: 1em;
+				width: 65%;
+			}
+		}
+
+		h2 {
+			color: #FFF;
+			font-size: 2.7em;
+			text-transform: uppercase;
+			background: #4B565D;
+			padding: 10px;
+			width: 68%;
+			margin: 0 auto;
+
+			@media (max-width: 480px){
+				font-size: 1em;
+				width: 88%;
+			}
+		}
+  }
 }
 
 @media (min-width: 767px) {
@@ -61,6 +95,7 @@ body{
 		li a{
 			color: white;
 			padding: 15px 20px;
+			margin-left: 10px;
 
 			&:hover{
 				color: #4bcaff;
@@ -69,6 +104,11 @@ body{
 				padding: 14px 19px;
 				background-color: transparent;
 			}
+
+			@media (max-width: 767px) {
+				margin-left: 0;
+			}
+		
 		}
 	} 
 
@@ -96,7 +136,7 @@ body{
 }
 
 section#services{
-	height: 100%;
+	
 	background-color: #4bcaff;
 
 	div.container{
@@ -110,12 +150,16 @@ section#services{
 			height: 108px;
 		}
 
-		h4{
+		h3{
 			text-align: center;
 			color: #ffffff;
 		}
 
-		h3{
+		h2{
+			color: #ffffff;
+		}
+
+		p{
 			color: #ffffff;
 		}
 
