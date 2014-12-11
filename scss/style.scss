@@ -6,6 +6,10 @@ h1,h2,h3,h4,a,p{
 	font-family: 'Lato', sans-serif;
 }
 
+b{
+	color: #4bcaff;
+}
+
 *, *:before, *:after {
 	box-sizing: inherit;
 	margin: 0;
@@ -87,7 +91,8 @@ body{
 		border-color: transparent;
 
 		@media (max-width: 767px) {
-			&:hover{
+			&:hover,
+			&:focus{
 				background-color: #4bcaff;
 			};
 		}
@@ -142,7 +147,7 @@ section#services{
 		padding: 75px 15px;
 
 		@media (max-width: 767px) {
-			padding: 35px 15px;
+			padding: 15px 15px;
 		}
 
 		span.design{
@@ -155,10 +160,20 @@ section#services{
 
 		h3{
 			text-align: center;
+
+			@media (max-width: 767px) {
+				font-size: 17px;
+			}
 		}
 
 		h2,h3,p{
 			color: #ffffff;
+		}
+
+		h2{
+			@media (max-width: 767px) {
+				font-size: 20px;
+			}
 		}
 
 		span.web{
@@ -172,6 +187,126 @@ section#services{
 }
 
 section#portfolio{
-	height: 845px;
 	background-color: #ffffff;
+
+	div.portfolio-header{
+		margin-top: 20px;
+		/* margin-bottom: 50px; */
+	}
+
+	div.container{
+		padding: 75px 15px;
+
+		@media (max-width: 767px) {
+			padding: 15px 15px;
+		}
+	}
+
+	h2{
+		display: block;
+		float: left;
+		margin-top: 0;
+		color: #666;
+
+		@media (max-width: 767px) {
+			font-size: 20px;
+		}
+	}
+
+	ul#nav-portfolio{
+		padding: 0;
+		list-style: none;
+		float: right;
+
+		@media (max-width: 420px){
+			padding-right: 30px;
+		} 
+
+		li{
+			display: -webkit-inline-box;
+
+			span{
+				font-family: 'Lato', sans-serif;
+				display: block;
+				padding: 4px 15px;
+				text-decoration: none;
+				color: #666;
+				cursor: pointer;
+				font-size: 16px;
+				text-transform: uppercase;
+				font-weight: 500;
+
+				&:hover{
+					color: #4bcaff;
+					border: 1px solid;
+					border-color: #4bcaff;
+					padding: 3px 14px;
+					background-color: transparent;
+				}
+
+				@media (max-width: 480px){
+					font-size: 14px;
+					/* padding: 4px 8px; */
+
+					&:hover{
+						color: #4bcaff;
+						border: 1px solid;
+						border-color: #4bcaff;
+						padding: 3px 14px;
+						background-color: transparent;
+					}
+				}
+			}
+		}
+	}
+
+	div.portfolio-images{
+		padding: 75px 15px 0;
+
+		@media (max-width: 767px){
+			padding: 15px 15px;
+		}
+
+		figure.image{
+			background-color: #666;
+			/* -webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-o-box-sizing: border-box; */
+			width: 23%;
+			float: left;
+			/* overflow: hidden; */
+			margin: 0 2% 2% 0;
+
+			@media (max-width: 480px){
+				width: 48%;
+			}
+
+			img{
+				max-width: 100%;
+
+				&:hover{
+					cursor: pointer
+				}
+			}
+		}
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,17 +9,22 @@ h1, h2, h3, h4, a, p {
 }
 
 /* line 9, ../scss/style.scss */
+b {
+  color: #4bcaff;
+}
+
+/* line 13, ../scss/style.scss */
 *, *:before, *:after {
   box-sizing: inherit;
   margin: 0;
 }
 
-/* line 14, ../scss/style.scss */
+/* line 18, ../scss/style.scss */
 body {
   font-family: helvetica;
 }
 
-/* line 18, ../scss/style.scss */
+/* line 22, ../scss/style.scss */
 .header {
   padding-top: 90px;
   background-color: #616365;
@@ -36,42 +41,42 @@ body {
   background-size: cover;
 }
 @media (max-width: 767px) {
-  /* line 18, ../scss/style.scss */
+  /* line 22, ../scss/style.scss */
   .header {
     padding-top: 70px;
   }
 }
-/* line 37, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 .header div.title {
   padding: 15% 0;
   text-align: center;
 }
-/* line 41, ../scss/style.scss */
+/* line 45, ../scss/style.scss */
 .header div.title h1, .header div.title h2 {
   color: #FFF;
   font-size: 2.7em;
   background: rgba(73, 84, 91, 0.84);
   padding: 10px;
 }
-/* line 48, ../scss/style.scss */
+/* line 52, ../scss/style.scss */
 .header div.title h1 {
   width: 48%;
   margin: 0 auto 2% auto;
 }
 @media (max-width: 480px) {
-  /* line 48, ../scss/style.scss */
+  /* line 52, ../scss/style.scss */
   .header div.title h1 {
     font-size: 1em;
     width: 65%;
   }
 }
-/* line 58, ../scss/style.scss */
+/* line 62, ../scss/style.scss */
 .header div.title h2 {
   width: 68%;
   margin: 0 auto;
 }
 @media (max-width: 480px) {
-  /* line 58, ../scss/style.scss */
+  /* line 62, ../scss/style.scss */
   .header div.title h2 {
     font-size: 1em;
     width: 88%;
@@ -79,45 +84,45 @@ body {
 }
 
 @media (min-width: 767px) {
-  /* line 71, ../scss/style.scss */
+  /* line 75, ../scss/style.scss */
   nav.top-nav-collapse {
     padding: 20px 0;
   }
 }
-/* line 76, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 .navbar-inverse {
   background: rgba(73, 84, 91, 0.84);
   padding: 20px 0;
   border-color: transparent;
 }
 @media (max-width: 767px) {
-  /* line 76, ../scss/style.scss */
+  /* line 80, ../scss/style.scss */
   .navbar-inverse {
     padding: 10px 0;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 }
-/* line 86, ../scss/style.scss */
+/* line 90, ../scss/style.scss */
 .navbar-inverse .navbar-toggle {
   border-color: transparent;
 }
 @media (max-width: 767px) {
-  /* line 90, ../scss/style.scss */
-  .navbar-inverse .navbar-toggle:hover {
+  /* line 95, ../scss/style.scss */
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     background-color: #4bcaff;
   }
 }
-/* line 96, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 .navbar-inverse .navbar-nav {
   float: right;
 }
-/* line 99, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 .navbar-inverse .navbar-nav li a {
   color: white;
   padding: 15px 20px;
   margin-left: 10px;
 }
-/* line 104, ../scss/style.scss */
+/* line 109, ../scss/style.scss */
 .navbar-inverse .navbar-nav li a:hover {
   color: #4bcaff;
   border: 1px solid;
@@ -126,14 +131,14 @@ body {
   background-color: transparent;
 }
 @media (max-width: 767px) {
-  /* line 99, ../scss/style.scss */
+  /* line 104, ../scss/style.scss */
   .navbar-inverse .navbar-nav li a {
     margin-left: 0;
     margin-bottom: 10px;
   }
 }
 
-/* line 122, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
@@ -145,28 +150,28 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* line 131, ../scss/style.scss */
+  /* line 136, ../scss/style.scss */
   #navbar ul {
     width: 100%;
     text-align: center;
     padding-right: 30px;
   }
 }
-/* line 138, ../scss/style.scss */
+/* line 143, ../scss/style.scss */
 section#services {
   background-color: #4bcaff;
 }
-/* line 141, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 section#services div.container {
   padding: 75px 15px;
 }
 @media (max-width: 767px) {
-  /* line 141, ../scss/style.scss */
+  /* line 146, ../scss/style.scss */
   section#services div.container {
-    padding: 35px 15px;
+    padding: 15px 15px;
   }
 }
-/* line 148, ../scss/style.scss */
+/* line 153, ../scss/style.scss */
 section#services div.container span.design {
   display: block;
   margin: 0 auto;
@@ -174,15 +179,27 @@ section#services div.container span.design {
   width: 140px;
   height: 108px;
 }
-/* line 156, ../scss/style.scss */
+/* line 161, ../scss/style.scss */
 section#services div.container h3 {
   text-align: center;
 }
-/* line 160, ../scss/style.scss */
+@media (max-width: 767px) {
+  /* line 161, ../scss/style.scss */
+  section#services div.container h3 {
+    font-size: 17px;
+  }
+}
+/* line 169, ../scss/style.scss */
 section#services div.container h2, section#services div.container h3, section#services div.container p {
   color: #ffffff;
 }
-/* line 164, ../scss/style.scss */
+@media (max-width: 767px) {
+  /* line 173, ../scss/style.scss */
+  section#services div.container h2 {
+    font-size: 20px;
+  }
+}
+/* line 179, ../scss/style.scss */
 section#services div.container span.web {
   display: block;
   margin: 0 auto;
@@ -191,8 +208,121 @@ section#services div.container span.web {
   height: 107px;
 }
 
-/* line 174, ../scss/style.scss */
+/* line 189, ../scss/style.scss */
 section#portfolio {
-  height: 845px;
   background-color: #ffffff;
+}
+/* line 192, ../scss/style.scss */
+section#portfolio div.portfolio-header {
+  margin-top: 20px;
+  /* margin-bottom: 50px; */
+}
+/* line 197, ../scss/style.scss */
+section#portfolio div.container {
+  padding: 75px 15px;
+}
+@media (max-width: 767px) {
+  /* line 197, ../scss/style.scss */
+  section#portfolio div.container {
+    padding: 15px 15px;
+  }
+}
+/* line 205, ../scss/style.scss */
+section#portfolio h2 {
+  display: block;
+  float: left;
+  margin-top: 0;
+  color: #666;
+}
+@media (max-width: 767px) {
+  /* line 205, ../scss/style.scss */
+  section#portfolio h2 {
+    font-size: 20px;
+  }
+}
+/* line 216, ../scss/style.scss */
+section#portfolio ul#nav-portfolio {
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+@media (max-width: 420px) {
+  /* line 216, ../scss/style.scss */
+  section#portfolio ul#nav-portfolio {
+    padding-right: 30px;
+  }
+}
+/* line 225, ../scss/style.scss */
+section#portfolio ul#nav-portfolio li {
+  display: -webkit-inline-box;
+}
+/* line 228, ../scss/style.scss */
+section#portfolio ul#nav-portfolio li span {
+  font-family: 'Lato', sans-serif;
+  display: block;
+  padding: 4px 15px;
+  text-decoration: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* line 239, ../scss/style.scss */
+section#portfolio ul#nav-portfolio li span:hover {
+  color: #4bcaff;
+  border: 1px solid;
+  border-color: #4bcaff;
+  padding: 3px 14px;
+  background-color: transparent;
+}
+@media (max-width: 480px) {
+  /* line 228, ../scss/style.scss */
+  section#portfolio ul#nav-portfolio li span {
+    font-size: 14px;
+    /* padding: 4px 8px; */
+  }
+  /* line 251, ../scss/style.scss */
+  section#portfolio ul#nav-portfolio li span:hover {
+    color: #4bcaff;
+    border: 1px solid;
+    border-color: #4bcaff;
+    padding: 3px 14px;
+    background-color: transparent;
+  }
+}
+/* line 263, ../scss/style.scss */
+section#portfolio div.portfolio-images {
+  padding: 75px 15px 0;
+}
+@media (max-width: 767px) {
+  /* line 263, ../scss/style.scss */
+  section#portfolio div.portfolio-images {
+    padding: 15px 15px;
+  }
+}
+/* line 270, ../scss/style.scss */
+section#portfolio div.portfolio-images figure.image {
+  background-color: #666;
+  /* -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box; */
+  width: 23%;
+  float: left;
+  /* overflow: hidden; */
+  margin: 0 2% 2% 0;
+}
+@media (max-width: 480px) {
+  /* line 270, ../scss/style.scss */
+  section#portfolio div.portfolio-images figure.image {
+    width: 48%;
+  }
+}
+/* line 284, ../scss/style.scss */
+section#portfolio div.portfolio-images figure.image img {
+  max-width: 100%;
+}
+/* line 287, ../scss/style.scss */
+section#portfolio div.portfolio-images figure.image img:hover {
+  cursor: pointer;
 }
