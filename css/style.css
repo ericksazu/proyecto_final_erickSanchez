@@ -399,3 +399,9 @@ section#portfolio div.portfolio-images div#effect-1 div.overlay a.expand {
 section#portfolio div.portfolio-images div#effect-1 div.img.hover div.overlay {
   height: 100%;
 }
+
+/* line 374, ../scss/style.scss */
+section#just-default {
+  background-color: #515f67;
+  height: 472px;
+}
