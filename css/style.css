@@ -413,40 +413,45 @@ section#just-default div.container {
   /* line 378, ../scss/style.scss */
   section#just-default div.container {
     padding: 15px 15px;
+    margin-top: 0;
   }
 }
-/* line 386, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
 section#just-default div.container h2, section#just-default div.container p {
   color: #ffffff;
 }
-/* line 390, ../scss/style.scss */
+/* line 391, ../scss/style.scss */
 section#just-default div.container p {
   margin-bottom: 30px;
 }
-/* line 394, ../scss/style.scss */
+/* line 395, ../scss/style.scss */
 section#just-default div.container h2 {
   margin-top: 0;
   margin-bottom: 50px;
 }
 @media (max-width: 767px) {
-  /* line 394, ../scss/style.scss */
+  /* line 395, ../scss/style.scss */
   section#just-default div.container h2 {
     font-size: 17px;
     margin-bottom: 30px;
   }
 }
-/* line 405, ../scss/style.scss */
+/* line 406, ../scss/style.scss */
 section#just-default div.container div.portfolio-left,
 section#just-default div.container div.portfolio-right {
   margin-top: 20px;
 }
-/* line 411, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
+section#just-default div.container div.portfolio-right {
+  margin-bottom: 20px;
+}
+/* line 413, ../scss/style.scss */
 section#just-default div.container div.portfolio-right div.img-video {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-/* line 416, ../scss/style.scss */
+/* line 418, ../scss/style.scss */
 section#just-default div.container div.portfolio-right div.img-video img {
   max-width: 100%;
 }
