@@ -373,7 +373,52 @@ section#portfolio{
 
 section#just-default{
 	background-color: #515f67;
-	height: 472px;
+	// height: 472px;
+
+	div.container{
+		padding: 75px 15px;
+		margin-top: 20px;
+
+		@media (max-width: 767px) {
+			padding: 15px 15px;
+		}
+
+		h2,p{
+			color: #ffffff;
+		}
+
+		p{
+			margin-bottom: 30px;
+		}
+
+		h2{
+			margin-top: 0;
+			margin-bottom: 50px;
+
+			@media (max-width: 767px) {
+				font-size: 17px;
+				margin-bottom: 30px;
+			}
+		}
+
+		div.portfolio-left,
+		div.portfolio-right{
+			margin-top: 20px;
+		}
+
+		div.portfolio-right{
+
+			div.img-video{
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+
+				img{
+					max-width: 100%;
+				}
+			}
+		}
+	}
 }
 
 
