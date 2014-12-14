@@ -436,22 +436,44 @@ section#just-default div.container h2 {
     margin-bottom: 30px;
   }
 }
-/* line 406, ../scss/style.scss */
+@media (max-width: 992px) {
+  /* line 405, ../scss/style.scss */
+  section#just-default div.container div.visit-me {
+    text-align: center;
+  }
+}
+/* line 411, ../scss/style.scss */
+section#just-default div.container div.visit-me a {
+  color: #ffffff;
+  font-size: 0.85em;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 12px 35px 9px 35px;
+  display: inline-block;
+  border: 1px solid #ffffff;
+}
+/* line 420, ../scss/style.scss */
+section#just-default div.container div.visit-me a:hover {
+  color: #4bcaff;
+  border: 1px solid;
+  border-color: #4bcaff;
+}
+/* line 429, ../scss/style.scss */
 section#just-default div.container div.portfolio-left,
 section#just-default div.container div.portfolio-right {
   margin-top: 20px;
 }
-/* line 410, ../scss/style.scss */
+/* line 433, ../scss/style.scss */
 section#just-default div.container div.portfolio-right {
   margin-bottom: 20px;
 }
-/* line 413, ../scss/style.scss */
+/* line 436, ../scss/style.scss */
 section#just-default div.container div.portfolio-right div.img-video {
   display: block;
   margin: 0 auto;
   text-align: center;
 }
-/* line 418, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 section#just-default div.container div.portfolio-right div.img-video img {
   max-width: 100%;
 }

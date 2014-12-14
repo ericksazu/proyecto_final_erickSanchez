@@ -402,6 +402,29 @@ section#just-default{
 			}
 		}
 
+		div.visit-me{
+
+			@media (max-width: 992px) {
+				text-align: center;
+			}
+
+			a{
+				color: #ffffff;
+				font-size: 0.85em;
+				text-decoration: none;
+				cursor: pointer;
+				padding: 12px 35px 9px 35px;
+				display: inline-block;
+				border: 1px solid #ffffff;
+
+				&:hover{
+					color: #4bcaff;
+					border: 1px solid;
+					border-color: #4bcaff;
+				}
+			}
+		}
+
 		div.portfolio-left,
 		div.portfolio-right{
 			margin-top: 20px;
