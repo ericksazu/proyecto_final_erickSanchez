@@ -477,3 +477,108 @@ section#just-default div.container div.portfolio-right div.img-video {
 section#just-default div.container div.portfolio-right div.img-video img {
   max-width: 100%;
 }
+
+/* line 449, ../scss/style.scss */
+section#who-is {
+  padding: 75px 15px;
+  background-color: #616365;
+  background: url(../img/pattern.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+}
+@media (max-width: 767px) {
+  /* line 449, ../scss/style.scss */
+  section#who-is {
+    padding-top: 70px;
+  }
+}
+/* line 470, ../scss/style.scss */
+section#who-is div.who-is-left h2, section#who-is div.who-is-left p {
+  color: #ffffff;
+}
+/* line 474, ../scss/style.scss */
+section#who-is div.who-is-left p:first-of-type {
+  margin-bottom: 30px;
+}
+/* line 478, ../scss/style.scss */
+section#who-is div.who-is-left p:last-of-type {
+  margin-bottom: 0;
+}
+/* line 482, ../scss/style.scss */
+section#who-is div.who-is-left h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  /* line 482, ../scss/style.scss */
+  section#who-is div.who-is-left h2 {
+    font-size: 17px;
+    margin-bottom: 30px;
+  }
+}
+/* line 495, ../scss/style.scss */
+section#who-is div.who-is-right p {
+  color: #ffffff;
+  margin-top: 83px;
+  margin-bottom: 30px;
+}
+@media (max-width: 992px) {
+  /* line 495, ../scss/style.scss */
+  section#who-is div.who-is-right p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+/* line 508, ../scss/style.scss */
+section#who-is div.who-is-right div.social span {
+  margin-right: 20px;
+  display: block;
+  width: 64px;
+  height: 64px;
+  float: left;
+}
+/* line 515, ../scss/style.scss */
+section#who-is div.who-is-right div.social span:hover {
+  cursor: pointer;
+}
+/* line 520, ../scss/style.scss */
+section#who-is div.who-is-right div.social span.twitter {
+  background: url("../img/social-sprite.png") no-repeat -3px -3px;
+}
+/* line 523, ../scss/style.scss */
+section#who-is div.who-is-right div.social span.twitter:hover {
+  background: url("../img/social-sprite.png") no-repeat -3px -71px;
+}
+/* line 528, ../scss/style.scss */
+section#who-is div.who-is-right div.social span.google {
+  background: url("../img/social-sprite.png") no-repeat -87px -3px;
+}
+/* line 531, ../scss/style.scss */
+section#who-is div.who-is-right div.social span.google:hover {
+  background: url("../img/social-sprite.png") no-repeat -87px -71px;
+}
+/* line 536, ../scss/style.scss */
+section#who-is div.who-is-right div.social span.facebook {
+  background: url("../img/social-sprite.png") no-repeat -171px -3px;
+}
+/* line 539, ../scss/style.scss */
+section#who-is div.who-is-right div.social span.facebook:hover {
+  background: url("../img/social-sprite.png") no-repeat -171px -71px;
+}
+/* line 544, ../scss/style.scss */
+section#who-is div.who-is-right div.social span.linkedin {
+  background: url("../img/social-sprite.png") no-repeat -255px -3px;
+  margin-right: 0;
+}
+/* line 548, ../scss/style.scss */
+section#who-is div.who-is-right div.social span.linkedin:hover {
+  background: url("../img/social-sprite.png") no-repeat -255px -71px;
+}
