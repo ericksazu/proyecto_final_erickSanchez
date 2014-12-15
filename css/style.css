@@ -497,7 +497,7 @@ section#who-is {
 @media (max-width: 767px) {
   /* line 449, ../scss/style.scss */
   section#who-is {
-    padding-top: 70px;
+    padding: 15px 15px;
   }
 }
 /* line 470, ../scss/style.scss */
@@ -521,23 +521,40 @@ section#who-is div.who-is-left h2 {
   /* line 482, ../scss/style.scss */
   section#who-is div.who-is-left h2 {
     font-size: 17px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
 }
-/* line 495, ../scss/style.scss */
+/* line 496, ../scss/style.scss */
+section#who-is div.who-is-right div.container {
+  padding: 75px 15px;
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  /* line 496, ../scss/style.scss */
+  section#who-is div.who-is-right div.container {
+    padding: 15px 15px;
+    margin-top: 0;
+  }
+}
+/* line 506, ../scss/style.scss */
 section#who-is div.who-is-right p {
   color: #ffffff;
   margin-top: 83px;
   margin-bottom: 30px;
 }
 @media (max-width: 992px) {
-  /* line 495, ../scss/style.scss */
+  /* line 506, ../scss/style.scss */
   section#who-is div.who-is-right p {
     margin-top: 30px;
     margin-bottom: 30px;
   }
 }
-/* line 508, ../scss/style.scss */
+/* line 517, ../scss/style.scss */
+section#who-is div.who-is-right div.social {
+  margin-bottom: 20px;
+}
+/* line 521, ../scss/style.scss */
 section#who-is div.who-is-right div.social span {
   margin-right: 20px;
   display: block;
@@ -545,46 +562,167 @@ section#who-is div.who-is-right div.social span {
   height: 64px;
   float: left;
 }
-/* line 515, ../scss/style.scss */
+/* line 528, ../scss/style.scss */
 section#who-is div.who-is-right div.social span:hover {
   cursor: pointer;
 }
 @media (max-width: 480px) {
-  /* line 508, ../scss/style.scss */
+  /* line 521, ../scss/style.scss */
   section#who-is div.who-is-right div.social span {
     margin-right: 14px;
   }
 }
-/* line 524, ../scss/style.scss */
+/* line 537, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.twitter {
   background: url("../img/social-sprite.png") no-repeat -3px -3px;
 }
-/* line 527, ../scss/style.scss */
+/* line 540, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.twitter:hover {
   background: url("../img/social-sprite.png") no-repeat -3px -71px;
 }
-/* line 532, ../scss/style.scss */
+/* line 545, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.google {
   background: url("../img/social-sprite.png") no-repeat -87px -3px;
 }
-/* line 535, ../scss/style.scss */
+/* line 548, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.google:hover {
   background: url("../img/social-sprite.png") no-repeat -87px -71px;
 }
-/* line 540, ../scss/style.scss */
+/* line 553, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.facebook {
   background: url("../img/social-sprite.png") no-repeat -171px -3px;
 }
-/* line 543, ../scss/style.scss */
+/* line 556, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.facebook:hover {
   background: url("../img/social-sprite.png") no-repeat -171px -71px;
 }
-/* line 548, ../scss/style.scss */
+/* line 561, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.linkedin {
   background: url("../img/social-sprite.png") no-repeat -255px -3px;
   margin-right: 0;
 }
-/* line 552, ../scss/style.scss */
+/* line 565, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.linkedin:hover {
   background: url("../img/social-sprite.png") no-repeat -255px -71px;
+}
+
+/* line 572, ../scss/style.scss */
+section#contact {
+  padding: 75px 15px;
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  /* line 572, ../scss/style.scss */
+  section#contact {
+    padding: 15px 15px;
+  }
+}
+/* line 580, ../scss/style.scss */
+section#contact div.form-group {
+  margin-bottom: 35px;
+}
+/* line 584, ../scss/style.scss */
+section#contact h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  /* line 584, ../scss/style.scss */
+  section#contact h2 {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+/* line 595, ../scss/style.scss */
+section#contact label {
+  font-family: 'Lato', sans-serif;
+}
+/* line 600, ../scss/style.scss */
+section#contact div.contact-left input {
+  padding: 20px;
+  width: 85%;
+  color: #666;
+  font-size: 0.85em;
+  border: 1px solid #666;
+  border-radius: 1px;
+  background: none;
+  outline: none;
+  display: block;
+  font-family: 'Lato', sans-serif;
+  -webkit-appearance: none;
+}
+@media (max-width: 980px) {
+  /* line 600, ../scss/style.scss */
+  section#contact div.contact-left input {
+    width: 100%;
+  }
+}
+/* line 619, ../scss/style.scss */
+section#contact div.contact-right {
+  float: right;
+}
+/* line 622, ../scss/style.scss */
+section#contact div.contact-right p {
+  margin-top: 14px;
+  margin-bottom: 15px;
+}
+@media (max-width: 992px) {
+  /* line 628, ../scss/style.scss */
+  section#contact div.contact-right p:first-of-type {
+    margin-top: 0;
+  }
+  /* line 632, ../scss/style.scss */
+  section#contact div.contact-right p:last-of-type {
+    margin-bottom: 35px;
+  }
+}
+/* line 638, ../scss/style.scss */
+section#contact div.contact-center {
+  margin-bottom: 20px;
+}
+/* line 641, ../scss/style.scss */
+section#contact div.contact-center div.form-group {
+  margin-bottom: 0;
+}
+/* line 645, ../scss/style.scss */
+section#contact div.contact-center textarea {
+  padding: 20px;
+  display: block;
+  width: 100%;
+  background: none;
+  border: 1px solid #666;
+  border-radius: 1px;
+  outline: none;
+  color: #666;
+  font-size: 0.85em;
+  font-family: 'Lato', sans-serif;
+  -webkit-appearance: none;
+  resize: none;
+  height: 200px;
+}
+/* line 661, ../scss/style.scss */
+section#contact div.contact-center input#submit {
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 20px 160px;
+  background: #4bcaff;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 4%;
+}
+/* line 674, ../scss/style.scss */
+section#contact div.contact-center input#submit:hover {
+  background: #666;
+}
+@media (max-width: 480px) {
+  /* line 661, ../scss/style.scss */
+  section#contact div.contact-center input#submit {
+    width: 100%;
+    padding: 20px 0;
+  }
 }
