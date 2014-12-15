@@ -279,7 +279,7 @@ section#portfolio ul#nav-portfolio li span:hover {
 @media (max-width: 480px) {
   /* line 228, ../scss/style.scss */
   section#portfolio ul#nav-portfolio li span {
-    font-size: 14px;
+    font-size: 12px;
     /* padding: 4px 8px; */
   }
   /* line 251, ../scss/style.scss */
@@ -549,36 +549,42 @@ section#who-is div.who-is-right div.social span {
 section#who-is div.who-is-right div.social span:hover {
   cursor: pointer;
 }
-/* line 520, ../scss/style.scss */
+@media (max-width: 480px) {
+  /* line 508, ../scss/style.scss */
+  section#who-is div.who-is-right div.social span {
+    margin-right: 14px;
+  }
+}
+/* line 524, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.twitter {
   background: url("../img/social-sprite.png") no-repeat -3px -3px;
 }
-/* line 523, ../scss/style.scss */
+/* line 527, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.twitter:hover {
   background: url("../img/social-sprite.png") no-repeat -3px -71px;
 }
-/* line 528, ../scss/style.scss */
+/* line 532, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.google {
   background: url("../img/social-sprite.png") no-repeat -87px -3px;
 }
-/* line 531, ../scss/style.scss */
+/* line 535, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.google:hover {
   background: url("../img/social-sprite.png") no-repeat -87px -71px;
 }
-/* line 536, ../scss/style.scss */
+/* line 540, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.facebook {
   background: url("../img/social-sprite.png") no-repeat -171px -3px;
 }
-/* line 539, ../scss/style.scss */
+/* line 543, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.facebook:hover {
   background: url("../img/social-sprite.png") no-repeat -171px -71px;
 }
-/* line 544, ../scss/style.scss */
+/* line 548, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.linkedin {
   background: url("../img/social-sprite.png") no-repeat -255px -3px;
   margin-right: 0;
 }
-/* line 548, ../scss/style.scss */
+/* line 552, ../scss/style.scss */
 section#who-is div.who-is-right div.social span.linkedin:hover {
   background: url("../img/social-sprite.png") no-repeat -255px -71px;
 }
